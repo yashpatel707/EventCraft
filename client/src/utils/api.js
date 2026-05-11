@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  // Live deployment ke liye localhost hata kar sirf '/api' rakhein
+  baseURL: "/api", 
 });
 
 // Add auth header
