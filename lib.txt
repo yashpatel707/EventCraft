@@ -1,0 +1,3 @@
+client: npm install tailwindcss @tailwindcss/vite
+
+server: npm.cmd install multer
